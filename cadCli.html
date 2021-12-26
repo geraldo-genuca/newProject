@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/cadCli.css"/>
+    
+    <title>Formulario de Cadastro!</title>
+    
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Cadastro de Clientes</b></legend>
+                <br>
+                <div class="inputBox">
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                </div>
+                <div class="inputBox">
+                    <label for="sobrenome">Sobrenome: </label>
+                    <input type="text" name="sobrenome" id="sobrenome" class="inputUser" required>
+                </div>
+                <div class="inputBox">
+                    <label for="email">e-mail:</label>
+                    <input type="email" name="email" id="email" class="inputUser" required>
+                </div>
+                <div class="inputBox">
+                    <label for="endereco">Endereço: </label>
+                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                </div>
+                <div class="inputBox">
+                    <label for="compl">Complemento: </label>
+                    <input type="text" name="compl" id="compl" class="inputUser" required>
+                </div>
+                <div class="inputBox">
+                    <label for="cep">Cep: </label>
+                    <input type="cep" name="cep" id="cep" class="inputUser" required>
+                </div>
+                <div class="inputBox">
+                    <label for="tele">Tele: </label>
+                    <input type="tel" name="tele" id="tele" class="inputUser" required>
+                </div>
+                <div class="inputBox">
+                    <label for="cidade" class="labelInput">Cidade: </label>
+                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                </div>
+                <div class="inputBox">
+                    <label for="estado" class="labelInput">Estado: </label>
+                    <input type="text" name="estado" id="cidade" class="inputUser" required>
+                </div>
+                <br>
+                <label for="data_nasc"><b>Data Nasc:</b></label>
+                <input type="date" name="data_nasc" id="data_nasc" required>
+                <p>Sexo:</p>
+                <input type="radio" id="feminino" name="genero" value="feminio" required>
+                <label for="feminino">Femenino</label>
+                <br>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <br>
+                <input type="radio" id="outros" name="genero" value="outros" required>
+                <label for="outros">Outros</label>
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+                
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
